@@ -14,9 +14,9 @@ Paragraphs are separated by a blank line.
 2nd paragraph. _Italic_, **bold**, and `monospace`. Itemized lists
 look like:
 
-- this one
-- that one
-- the other one
+* this one
+* that one
+* the other one
 
 ## An h2 header
 
@@ -34,5 +34,5 @@ Unicode is supported 😄
 
 ```js
 // javascript
-console.log("Hello World!!");
+console.log('Hello World!!')
 ```

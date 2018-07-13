@@ -1,8 +1,8 @@
-import React from "react";
-import "scss/gatstrap.scss";
-import "animate.css/animate.css";
-import "prismjs/themes/prism-okaidia.css";
-import "font-awesome/css/font-awesome.css";
+import React from 'react'
+import 'scss/gatstrap.scss'
+import 'animate.css/animate.css'
+import 'prismjs/themes/prism-okaidia.css'
+import 'font-awesome/css/font-awesome.css'
 
 export default class HTML extends React.Component {
   render() {
@@ -35,6 +35,6 @@ export default class HTML extends React.Component {
           />
         </body>
       </html>
-    );
+    )
   }
 }

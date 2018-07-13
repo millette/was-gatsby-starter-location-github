@@ -1,6 +1,6 @@
-import { Link } from "gatsby";
-import React from "react";
-import "./style.scss";
+import { Link } from 'gatsby'
+import React from 'react'
+import './style.scss'
 
 const Footer = ({ author, title }) => (
   <div className="footer">
@@ -15,6 +15,6 @@ const Footer = ({ author, title }) => (
       </p>
     </div>
   </div>
-);
+)
 
-export default Footer;
+export default Footer
