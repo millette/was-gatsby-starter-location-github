@@ -1,0 +1,91 @@
+{
+  "name": "gatsby-starter-bootstrap",
+  "description": "Simple starter for Gatsby",
+  "version": "2.0.0",
+  "author": "Futoshi Iwashita <jaxx2104@gmail.com>",
+  "dependencies": {
+    "gatsby": "^2.0.0-beta.33",
+    "gatsby-image": "^2.0.0-beta.6",
+    "gatsby-link": "^2.0.0-beta.1",
+    "gatsby-plugin-catch-links": "^2.0.2-beta.1",
+    "gatsby-plugin-feed": "^2.0.0-beta.1",
+    "gatsby-plugin-google-analytics": "^2.0.0-beta.1",
+    "gatsby-plugin-manifest": "^2.0.2-beta.1",
+    "gatsby-plugin-netlify": "^2.0.0-beta.1",
+    "gatsby-plugin-nprogress": "^2.0.0-beta.1",
+    "gatsby-plugin-offline": "^2.0.0-beta.1",
+    "gatsby-plugin-preact": "next",
+    "gatsby-plugin-react-helmet": "^3.0.0-beta.1",
+    "gatsby-plugin-react-next": "^2.0.1-13",
+    "gatsby-plugin-sass": "2.0.0-beta.1",
+    "gatsby-plugin-sharp": "2.0.0-beta.1",
+    "gatsby-plugin-sitemap": "^2.0.0-beta.1",
+    "gatsby-plugin-twitter": "^2.0.0-beta.1",
+    "gatsby-remark-copy-linked-files": "^2.0.0-beta.1",
+    "gatsby-remark-images": "^2.0.1-beta.6",
+    "gatsby-remark-prismjs": "^3.0.0-beta.1",
+    "gatsby-remark-responsive-iframe": "^2.0.0-beta.1",
+    "gatsby-remark-smartypants": "^2.0.0-beta.1",
+    "gatsby-source-filesystem": "^2.0.1-beta.1",
+    "gatsby-transformer-remark": "^2.1.1-beta.3",
+    "gatsby-transformer-sharp": "^2.1.1-beta.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome": "1.1.8",
+    "@fortawesome/fontawesome-free-brands": "5.0.13",
+    "@fortawesome/react-fontawesome": "0.0.20",
+    "animate.css": "3.6.1",
+    "babel-eslint": "8.2.6",
+    "bootstrap": "4.1.2",
+    "emergence.js": "1.1.2",
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "eslint-plugin-react": "7.10.0",
+    "font-awesome": "4.7.0",
+    "gh-pages": "1.2.0",
+    "husky": "0.14.3",
+    "lint-staged": "7.2.0",
+    "lodash": "^4.17.10",
+    "modern-normalize": "0.5.0",
+    "node-sass": "^4.9.0",
+    "prettier": "1.13.7",
+    "prismjs": "^1.14.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-helmet": "^5.2.0",
+    "react-lazyload": "^2.3.0",
+    "textlint": "10.2.1",
+    "textlint-rule-preset-ja-spacing": "2.0.1",
+    "textlint-rule-preset-japanese": "4.0.0"
+  },
+  "keywords": [
+    "gatsby",
+    "gatstrap",
+    "starter"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.md": [
+      "npm run lint:textfix",
+      "git add"
+    ]
+  },
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.+(js|json|md)\"",
+    "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
+    "lint:text": "textlint src/pages/**/index.md",
+    "lint:textfix": "textlint --fix src/pages/**/index.md",
+    "precommit": "lint-staged",
+    "test": "prettier --write \"**/*.+(js|jsx|json|css|scss)\""
+  }
+}
