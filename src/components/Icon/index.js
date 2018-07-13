@@ -1,21 +1,21 @@
-import FontAwesomeIcon from "@fortawesome/react-fontawesome";
-import fontawesome from "@fortawesome/fontawesome";
-import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import React from 'react'
 
-import faHtml5 from "@fortawesome/fontawesome-free-brands/faHtml5";
-import faNode from "@fortawesome/fontawesome-free-brands/faNode";
-import faPhp from "@fortawesome/fontawesome-free-brands/faPhp";
-import faJs from "@fortawesome/fontawesome-free-brands/faJs";
-import faAws from "@fortawesome/fontawesome-free-brands/faAws";
-import faVuejs from "@fortawesome/fontawesome-free-brands/faVuejs";
-import faReact from "@fortawesome/fontawesome-free-brands/faReact";
-import faTwitter from "@fortawesome/fontawesome-free-brands/faTwitter";
-import faFacebook from "@fortawesome/fontawesome-free-brands/faFacebook";
-import faGithub from "@fortawesome/fontawesome-free-brands/faGithub";
-import faApple from "@fortawesome/fontawesome-free-brands/faApple";
-import "./style.scss";
+import { faHtml5 } from '@fortawesome/free-brands-svg-icons'
+import { faNode } from '@fortawesome/free-brands-svg-icons'
+import { faPhp } from '@fortawesome/free-brands-svg-icons'
+import { faJs } from '@fortawesome/free-brands-svg-icons'
+import { faAws } from '@fortawesome/free-brands-svg-icons'
+import { faVuejs } from '@fortawesome/free-brands-svg-icons'
+import { faReact } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faApple } from '@fortawesome/free-brands-svg-icons'
+import './style.scss'
 
-fontawesome.library.add(
+library.add(
   faAws,
   faApple,
   faPhp,
@@ -27,12 +27,12 @@ fontawesome.library.add(
   faFacebook,
   faGithub,
   faNode
-);
+)
 
 const Icon = ({ name }) => (
   <div class="icon" title={name}>
-    <FontAwesomeIcon icon={["fab", name]} />
+    <FontAwesomeIcon icon={['fab', name]} />
   </div>
-);
+)
 
-export default Icon;
+export default Icon
