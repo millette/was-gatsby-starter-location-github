@@ -1,8 +1,7 @@
 {
-  "name": "gatsby-starter-bootstrap",
-  "description": "Simple starter for Gatsby",
-  "version": "2.0.0",
-  "author": "Futoshi Iwashita <jaxx2104@gmail.com>",
+  "name": "gatsby-starter-location-github",
+  "description": "Local GitHub directory.",
+  "version": "0.0.0",
   "dependencies": {
     "gatsby": "^2.0.0-beta.34",
     "gatsby-image": "^2.0.0-beta.6",
@@ -60,18 +59,16 @@
     "textlint-rule-preset-ja-spacing": "2.0.1",
     "textlint-rule-preset-japanese": "4.0.0"
   },
-  "keywords": ["gatsby", "gatstrap", "starter"],
-  "license": "MIT",
+  "keywords": ["gatsby", "github", "starter"],
   "lint-staged": {
     "*.{js,json,md}": ["prettier-standard", "git add"],
     "*.md": ["npm run lint:textfix", "git add"]
   },
-  "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "serve": "gatsby serve",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier-standard '**/*.+(js|json|md)'",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
     "lint:text": "textlint src/pages/**/index.md",
