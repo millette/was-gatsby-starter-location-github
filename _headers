@@ -6,18 +6,18 @@
   X-Content-Type-Options: nosniff
 /static/*
   Cache-Control: max-age=31536000
-/hello-world/
-  Link: </webpack-runtime-b7166d45eab0b16c7ae9.js>; rel=preload; as=script
-  Link: </1.b7a53f65724ce443311f.css>; rel=preload; as=script
-/markdown/
-  Link: </webpack-runtime-b7166d45eab0b16c7ae9.js>; rel=preload; as=script
-  Link: </1.b7a53f65724ce443311f.css>; rel=preload; as=script
-/my-second-post/
-  Link: </webpack-runtime-b7166d45eab0b16c7ae9.js>; rel=preload; as=script
-  Link: </1.b7a53f65724ce443311f.css>; rel=preload; as=script
-/
-  Link: </webpack-runtime-b7166d45eab0b16c7ae9.js>; rel=preload; as=script
-  Link: </1.b7a53f65724ce443311f.css>; rel=preload; as=script
-/profile/
-  Link: </webpack-runtime-b7166d45eab0b16c7ae9.js>; rel=preload; as=script
-  Link: </1.b7a53f65724ce443311f.css>; rel=preload; as=script
+/gatsby-starter-location-github/hello-world/
+  Link: </gatsby-starter-location-github/webpack-runtime-9a6edc776466a1b3ceee.js>; rel=preload; as=script
+  Link: </gatsby-starter-location-github/1.d288d122e02ff1e8efdf.css>; rel=preload; as=script
+/gatsby-starter-location-github/my-second-post/
+  Link: </gatsby-starter-location-github/webpack-runtime-9a6edc776466a1b3ceee.js>; rel=preload; as=script
+  Link: </gatsby-starter-location-github/1.d288d122e02ff1e8efdf.css>; rel=preload; as=script
+/gatsby-starter-location-github/markdown/
+  Link: </gatsby-starter-location-github/webpack-runtime-9a6edc776466a1b3ceee.js>; rel=preload; as=script
+  Link: </gatsby-starter-location-github/1.d288d122e02ff1e8efdf.css>; rel=preload; as=script
+/gatsby-starter-location-github/
+  Link: </gatsby-starter-location-github/webpack-runtime-9a6edc776466a1b3ceee.js>; rel=preload; as=script
+  Link: </gatsby-starter-location-github/1.d288d122e02ff1e8efdf.css>; rel=preload; as=script
+/gatsby-starter-location-github/profile/
+  Link: </gatsby-starter-location-github/webpack-runtime-9a6edc776466a1b3ceee.js>; rel=preload; as=script
+  Link: </gatsby-starter-location-github/1.d288d122e02ff1e8efdf.css>; rel=preload; as=script
