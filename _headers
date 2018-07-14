@@ -1,0 +1,23 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+/static/*
+  Cache-Control: max-age=31536000
+/hello-world/
+  Link: </webpack-runtime-b7166d45eab0b16c7ae9.js>; rel=preload; as=script
+  Link: </1.b7a53f65724ce443311f.css>; rel=preload; as=script
+/markdown/
+  Link: </webpack-runtime-b7166d45eab0b16c7ae9.js>; rel=preload; as=script
+  Link: </1.b7a53f65724ce443311f.css>; rel=preload; as=script
+/my-second-post/
+  Link: </webpack-runtime-b7166d45eab0b16c7ae9.js>; rel=preload; as=script
+  Link: </1.b7a53f65724ce443311f.css>; rel=preload; as=script
+/
+  Link: </webpack-runtime-b7166d45eab0b16c7ae9.js>; rel=preload; as=script
+  Link: </1.b7a53f65724ce443311f.css>; rel=preload; as=script
+/profile/
+  Link: </webpack-runtime-b7166d45eab0b16c7ae9.js>; rel=preload; as=script
+  Link: </1.b7a53f65724ce443311f.css>; rel=preload; as=script
