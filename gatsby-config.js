@@ -7,7 +7,7 @@ module.exports = {
     twitter: 'jaxx2104',
     adsense: '',
   },
-  pathPrefix: '/',
+  pathPrefix: '/gatsby-starter-location-github',
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
