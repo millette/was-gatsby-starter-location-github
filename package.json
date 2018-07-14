@@ -52,15 +52,11 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
-    "react-lazyload": "^2.3.0",
-    "textlint": "10.2.1",
-    "textlint-rule-preset-ja-spacing": "2.0.1",
-    "textlint-rule-preset-japanese": "4.0.0"
+    "react-lazyload": "^2.3.0"
   },
   "keywords": ["gatsby", "github", "starter"],
   "lint-staged": {
-    "*.{js,json,md}": ["prettier-standard", "git add"],
-    "*.md": ["npm run lint:textfix", "git add"]
+    "*.{js,json,md}": ["prettier-standard", "git add"]
   },
   "scripts": {
     "build": "gatsby build",
@@ -69,8 +65,6 @@
     "dev": "gatsby develop",
     "format": "prettier-standard '**/*.+(js|json|md)'",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
-    "lint:text": "textlint src/pages/**/index.md",
-    "lint:textfix": "textlint --fix src/pages/**/index.md",
     "precommit": "lint-staged",
     "test": "prettier-standard '**/*.+(js|jsx|json|css|scss)'"
   }
